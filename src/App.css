@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+.App{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.container{
+  display: flex;
+  width: 700px;
+  align-items: center;
+  justify-content: center;
+  background-color: cadetblue;
+  margin-top: 40px;
+  height: 100vh;
+}
+
+.inputsec{
+  width: 500px;
+
+  position: fixed;
+  bottom: 0px;
+  display: flex;
+}
+
+.inputsec input{
+  width: 100%;
+  padding: 10px;
+}
+
+.chatmsg{
+  margin: 20px;
+}
+
+.msges{
+  display: flex;
+  flex-direction: column;align-items: center;
+  justify-content: center;
+}
